@@ -3,15 +3,15 @@
 
 ## Table of contents
 * [Dependencies](#dependencies)
-* [How to Use](#How to Use)
-* [Ciphers](#Ciphers)
-* [Screenshots](#Screenshots)
+* [How-to-Use](#how-to-use)
+* [Ciphers](#ciphers)
+* [Screenshots](#screenshots)
 
 ## Dependencies
 * Ruby
 * [Shoes4](https://github.com/shoes/shoes4)
 
-## How to Use
+## How-to-Use
 Run <code>shoes app.rb</code> on the repository main directory.
 
 ## Ciphers
@@ -24,3 +24,6 @@ Run <code>shoes app.rb</code> on the repository main directory.
 * Enigma Cipher
 
 ## Screenshots
+<img src="/screenshots/menu.png">
+
+<img src="/screenshots/cipher.png">
