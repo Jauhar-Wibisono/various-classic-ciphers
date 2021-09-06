@@ -4,6 +4,7 @@ require_relative "./src/full-vigenere-cipher"
 require_relative "./src/extended-vigenere-cipher"
 require_relative "./src/playfair-cipher"
 require_relative "./src/affine-cipher"
+require_relative "./src/enigma-cipher"
 
 class VariousClassicCiphers < Shoes
 
@@ -14,6 +15,7 @@ class VariousClassicCiphers < Shoes
 	url "/extended-vigenere-cipher", :extendedVigenereCipher
 	url "/playfair-cipher", :playfairCipher
 	url "/affine-cipher", :affineCipher
+	url "/enigma-cipher", :enigmaCipher
 
 	def index
 		stack margin: [0, 5, 0, 5] do
@@ -38,6 +40,9 @@ class VariousClassicCiphers < Shoes
 			end
 			button "Affine Cipher", width: 1.0 do
 				visit "/affine-cipher"
+			end
+			button "Enigma Cipher", width: 1.0 do
+				visit "/enigma-cipher"
 			end
 		end
 		stack margin: 5, top: 500 do
